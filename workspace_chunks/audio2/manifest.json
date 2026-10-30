@@ -1,0 +1,30 @@
+[
+  {
+    "chunk": "chunk_000.wav",
+    "offset": 0.0
+  },
+  {
+    "chunk": "chunk_001.wav",
+    "offset": 1206.043771
+  },
+  {
+    "chunk": "chunk_002.wav",
+    "offset": 2405.506812
+  },
+  {
+    "chunk": "chunk_003.wav",
+    "offset": 3600.130896
+  },
+  {
+    "chunk": "chunk_004.wav",
+    "offset": 4796.902625
+  },
+  {
+    "chunk": "chunk_005.wav",
+    "offset": 5995.223792
+  },
+  {
+    "chunk": "chunk_006.wav",
+    "offset": 7201.597604
+  }
+]
