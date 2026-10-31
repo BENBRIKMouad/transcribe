@@ -1,4 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#ea580c"/>
-  <text x="32" y="32" dy="0.35em" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="32" font-weight="600" fill="#ffffff">T</text>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Base background with rounded corners -->
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <rect width="64" height="64" rx="14" fill="url(#gloss)"/>
+  
+  <!-- Acoustic sound waves (left and right) -->
+  <path d="M14 20 C11.5 24 11.5 30 14 34" fill="none" stroke="#c4b5fd" stroke-width="2.2" stroke-linecap="round" opacity="0.65"/>
+  <path d="M50 20 C52.5 24 52.5 30 50 34" fill="none" stroke="#c4b5fd" stroke-width="2.2" stroke-linecap="round" opacity="0.65"/>
+  <path d="M18.5 22.5 C17 25 17 29 18.5 31.5" fill="none" stroke="#e0e7ff" stroke-width="2.2" stroke-linecap="round" opacity="0.9"/>
+  <path d="M45.5 22.5 C47 25 47 29 45.5 31.5" fill="none" stroke="#e0e7ff" stroke-width="2.2" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Microphone capsule -->
+  <rect x="26" y="13" width="12" height="19" rx="6" fill="#ffffff"/>
+  
+  <!-- Mic cradle / bracket -->
+  <path d="M21 23 C21 30.5 26 35 32 35 C38 35 43 30.5 43 23" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round"/>
+  
+  <!-- Mic stand and base -->
+  <line x1="32" y1="35" x2="32" y2="40.5" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round"/>
+  <line x1="26" y1="40.5" x2="38" y2="40.5" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round"/>
+  
+  <!-- Speech-to-text transcription lines -->
+  <line x1="18" y1="47.5" x2="46" y2="47.5" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="23" y1="52.5" x2="41" y2="52.5" stroke="#c4b5fd" stroke-width="2.4" stroke-linecap="round"/>
 </svg>
