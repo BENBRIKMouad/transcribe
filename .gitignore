@@ -1,0 +1,43 @@
+# Audio and video media files
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.aac
+*.ogg
+*.wma
+*.mp4
+*.mkv
+*.mov
+*.avi
+
+# Subtitle and transcription outputs
+*.srt
+*.vtt
+*.json
+*.tsv
+*.csv
+
+# Chunk caches, temporary files and logs
+workspace_chunks/
+temp/
+tmp/
+*.log
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.env
+venv/
+env/
+.venv/
+.pytest_cache/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
